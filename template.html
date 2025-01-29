@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>codX product</title>
+    <style>
+        .el{
+            margin-left: 10px;
+        }
+        .elem{
+            font-weight: bolder;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .percentage{
+            padding: 0px;
+            width: 100%;
+            height: 10px;
+            background: #f0f0f0;
+        }
+        .perWidth{
+            width: 0%;
+            height: 100%;
+            background:#03a9f4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container border border-dark border-5">
+        <div class="row">
+            <div class="col-5" style="background-color: #7fc1e0;">
+                <div class="row m-3">
+                    <h1 class="text-center mt-3" id="name1" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"></h1>
+                    <div class="text-center fs-4" id="mainField1">
+                        <!-- Full Stack Developer.-->
+                    </div>
+                </div><hr>
+                <div class="row mt-3 m-3">
+                    <div class="col-2 p-0 text-center"><i class="fa fa-mobile-phone" style="font-size:36px"></i></div>
+                    <div class="col fw-bolder fs-6 p-0 m-1" id="mobno1"></div>
+                </div>   
+
+                <div class="row  m-1">
+                    <div class="col-2 p-1 text-center"><i class="fa fa-envelope" style="font-size:24px"></i></div>
+                    <div class="col fw-bolder m-1 p-0" id="email1"></div>
+                </div>
+
+                <div class="row mt-3 m-3">
+                    <div class="col-2 p-0 text-center"><i class="fa fa-address-book" style="font-size:24px"></i></div>
+                    <div class="col float-end fw-bolder p-0 fs-6 mt-0" id='address1'></div>
+                </div>
+                
+                <div class="row mt-3 m-3">
+                    <div class="col-2 p-0 text-center mt-1"><i class="fa fa-calendar" style="font-size:24px"></i></div>
+                    <div class="col fw-bolder fs-6 p-0 m-1" id="dob1"></div>
+                </div><hr>
+                <h4 class="h2 text-center">Education:</h4>
+                <div class="edu">
+                    <ul style="list-style: none;" class="m-1 p-1">
+                       <div class="elem">Graduation:-</div> 
+                        <div class="row el">
+                            <div class="col-2 p-0 text-center"><i class="fa fa-graduation-cap" style="font-size:36px"></i></div>
+                            <div class="col fw-bolder fs-6 p-0 m-1"><li id="graduationClgName1"></li></div>
+                        </div>
+                        
+                        <div class="row el">
+                            <div class="col-2 p-0 text-center"><i class="fa fa-percent" style="font-size:24px;"></i></div>
+                            <div class="col fw-bolder fs-6 p-0 m-1"><li id="graduationPercentage1"></li></div>
+                        </div> 
+
+                        <div class="row el">
+                         <div class="col-2 p-0 text-center"><i class="fa fa-calendar" style="font-size:24px"></i></div>
+                            <div class="col fw-bolder fs-6 p-0 m-1" ><li id="graduationYear1"></li></div>
+                        </div> 
+                    </ul>
+                    <ul style="list-style: none;" class="m-1 p-1">
+                        <div class="elem">Higher Education:-</div>
+                        <div class="row el">
+                            <div class="col-2 p-0 text-center"><i class="fa fa-graduation-cap" style="font-size:36px"></i></div>
+                            <div class="col fw-bolder fs-6 p-0 m-1"><li id="higherClgName1"></li></div>
+                        </div>
+                        
+                        <div class="row el">
+                            <div class="col-2 p-0 text-center"><i class="fa fa-percent" style="font-size:24px;"></i></div>
+                            <div class="col fw-bolder fs-6 p-0 m-1"><li id="higherPercentage1"></li></div>
+                        </div> 
+
+                        <div class="row el">
+                         <div class="col-2 p-0 text-center"><i class="fa fa-calendar" style="font-size:24px"></i></div>
+                            <div class="col fw-bolder fs-6 p-0 m-1" ><li id="higherYear1"></li></div>
+                        </div>
+                    </ul>
+                    <ul style="list-style: none;" class="m-1 p-1">
+                        <div class="elem">Schooling:-</div>
+                        <div class="row el">
+                            <div class="col-2 p-0 text-center"><i class="fa fa-graduation-cap" style="font-size:36px"></i></div>
+                            <div class="col fw-bolder fs-6 p-0 m-1"><li id="schoolName1"></li></div>
+                        </div>
+                        
+                        <div class="row el">
+                            <div class="col-2 p-0 text-center"><i class="fa fa-percent" style="font-size:24px;"></i></div>
+                            <div class="col fw-bolder fs-6 p-0 m-1"><li id="schoolPercentage1"></li></div>
+                        </div> 
+
+                        <div class="row el">
+                         <div class="col-2 p-0 text-center"><i class="fa fa-calendar" style="font-size:24px"></i></div>
+                            <div class="col fw-bolder fs-6 p-0 m-1" ><li id="schoolYear1"></li></div>
+                        </div>
+                    </ul>
+                </div><hr>
+                <h4 class="h2 text-center">Social:</h4>
+                    <div class="row text-center">
+                        <div class="col">
+                            <i class="fa fa-linkedin-square" style="font-size:36px"></i>
+                            <div id="linkedin_1"></div>
+                        </div>
+                        <div class="col">
+                            <i class="fa fa-instagram" style="font-size:36px"></i>
+                            <div id="instagram_1"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-7 bg-light">
+                <div class="h3 pt-3" style="margin: 30px;">About:</div>
+                <p class="text-center fs-5 pt-2" id="description1"></p>
+                <hr><h4 class="h3">Professional Skills:</h4>
+                <div class="skills">
+                    <ul class="p-3 pt-1 mt-1 mb-0">
+                        <li class="p-1 m-2 fs-5  fw-bolder fst-italic" > 
+                            <div class="row">
+                                <div class="col text-uppercase">
+                                    <span id="keyskill_1" style="color: #848c99;"></span>
+                                </div>
+                                <div class="col percentage ">
+                                    <div class="perWidth" id="percentage_1"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="p-1 m-2 fs-5  fw-bolder fst-italic" >
+                            <div class="row">
+                                <div class="col text-uppercase">
+                                    <span id="keyskill_2" style="color: #848c99;"></span>
+                                </div>
+                                <div class="col percentage " >
+                                    <div class="perWidth" id="percentage_2"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="p-1 m-2 fs-5  fw-bolder fst-italic">
+                            <div class="row">
+                                <div class="col text-uppercase">
+                                    <span id="keyskill_3" style="color: #848c99;"></span>
+                                </div>
+                                <div class="col percentage" >
+                                    <div class="perWidth" id="percentage_3"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="p-1 m-2 fs-5  fw-bolder fst-italic" >
+                            <div class="row">
+                                <div class="col text-uppercase">
+                                    <span id="keyskill_4" style="color: #848c99;"></span>
+                                </div>
+                                <div class="col percentage" >
+                                    <div class="perWidth" id="percentage_4"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="p-1 m-2 fs-5  fw-bolder fst-italic" >
+                            <div class="row">
+                                <div class="col text-uppercase">
+                                    <span id="keyskill_5" style="color: #848c99;"></span>
+                                </div>
+                                <div class="col percentage" >
+                                    <div class="perWidth" id="percentage_5"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hobbies">
+                    <h4 class="h3">Hobbies:</h4>
+                    <ul style="padding-left: 0.5rem;margin-left: 20px;">
+                        <li  class="p-1 m-2 fs-4  fw-bolder" ><span id="hobbie1" style="color: #848c99;"></span></li>
+                        <li  class="p-1 m-2 fs-4  fw-bolder" ><span id="hobbie2" style="color: #848c99;"> </span> </li>
+                        <li  class="p-1 m-2 fs-4  fw-bolder" ><span id="hobbie3" style="color: #848c99;"></span> </li>
+                        <li  class="p-1 m-2 fs-4  fw-bolder"><span id="hobbie4" style="color: #848c99;"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center m-3" id="buttonn">
+        <button class="btn btn-success" onclick="generate()">Generate CV</button>
+    </div>
+    <script src="templateScript.js"></script>
+    
+</body>
+</html>

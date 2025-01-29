@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indexcss.css">
+</head>
+<body style="background-color:white;"> 
+<div class="resume" style="border: 2px solid black;">
+   <div class="resume_left">
+     <div class="resume_content">
+       <div class="resume_item resume_info">
+         <div class="title">
+           <p class="bold" id="name1">stephen colbert</p>
+           <p class="regular" id="mainField1">Designer</p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+               <i class="fas fa-map-signs"></i>
+             </div>
+             <div class="data" id="address1">
+                <br /> 
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-mobile-alt"></i>
+             </div>
+             <div class="data" id="mobno1">
+              
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-envelope"></i>
+             </div>
+             <div class="data" id="email1">
+               
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-calendar-check"></i>
+             </div>
+             <div class="data" id="dob1">
+               
+             </div>
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item resume_skills">
+         <div class="title">
+           <p class="bold">skill's</p>
+         </div>
+         <ul>
+           <li>
+             <div class="skill_name" id="keyskill_1">
+              
+             </div>
+             <div class="skill_progress">
+               <span  id="percentage_1"></span>
+             </div>
+             <div class="skill_per" id="per1">80%</div>
+           </li>
+           <li>
+             <div class="skill_name" id="keyskill_2">
+               
+             </div>
+             <div class="skill_progress">
+               <span id="percentage_2"></span>
+             </div>
+             <div class="skill_per" id="per2">70%</div>
+           </li>
+           <li>
+             <div class="skill_name" id="keyskill_3">
+               SASS
+             </div>
+             <div class="skill_progress">
+               <span id="percentage_3"></span>
+             </div>
+             <div class="skill_per" id="per3">90%</div>
+           </li>
+           <li>
+             <div class="skill_name" id="keyskill_4">
+               JS
+             </div>
+             <div class="skill_progress">
+               <span id="percentage_4"></span>
+             </div>
+             <div class="skill_per" id="per4">60%</div>
+           </li>
+           <li>
+             <div class="skill_name" id="keyskill_5">
+               JQUERY
+             </div>
+             <div class="skill_progress">
+               <span id="percentage_5"></span>
+             </div>
+             <div class="skill_per" id="per5">88%</div>
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item resume_social">
+         <div class="title">
+           <p class="bold">Social</p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+               <i class="fab fa-instagram"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Instagram</p>
+               <p id="instagram_1">Stephen@facebook</p>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-linkedin"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Linkedin</p>
+               <p id="linkedin_1">Stephen@linkedin</p>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </div>
+  </div>
+  <div class="resume_right">
+    <div class="resume_item resume_about">
+        <div class="title">
+           <p class="bold">About:</p>
+         </div>
+        <p id="description1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis illo fugit officiis distinctio culpa officia totam atque exercitationem inventore repudiandae?</p>
+    </div>
+    <div class="resume_item resume_education">
+        <div class="title">
+           <p class="bold">Education</p>
+         </div>
+        <ul>
+            <li>
+                <div class="date ">Graduation</div> 
+                <div class="info">
+                     <p class="semi-bold" id="graduationYear1">Lorem ipsum dolor sit amet.</p> 
+                  <p id="graduationClgName1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                  <span id="graduationPercentage1"></span>
+                </div>
+            </li>
+            <li>
+              <div class="date">Higher Education</div>
+              <div class="info">
+                     <p class="semi-bold" id="higherYear1">Lorem ipsum dolor sit amet.</p> 
+                  <p id="higherClgName1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                  <span id="higherPercentage1"></span>
+                </div>
+            </li>
+            <li>
+              <div class="date">Schooling</div>
+              <div class="info">
+                     <p class="semi-bold" id="schoolYear1">Lorem ipsum dolor sit amet.</p> 
+                  <p id="schoolName1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                  <span id="schoolPercentage1"></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item">
+      <div class="title">
+        <p class="bold">Hobbies</p>
+      </div>
+      <ul style="margin-left: 20%;">
+        <li class="semi-bold" id="hobbie1">Hi</li>
+        <li class="semi-bold" id="hobbie2">Hello</li>
+        <li class="semi-bold" id="hobbie3">Nam</li>
+        <li class="semi-bold" id="hobbie4">BV</li>
+      </ul>
+   </div>
+  </div>
+</div>
+<div class="" id="buttonn">
+  <button class="btn btn-success" onclick="generate()">Generate CV</button>
+</div>
+<script>var element1 = document.getElementById("per1");
+  element1.style.width = localStorage.getItem('percentage_1')+"%";
+  var element2 = document.getElementById("per2");
+  element2.style.width = localStorage.getItem('percentage_2')+"%";
+  var element3 = document.getElementById("per3");
+  element3.style.width = localStorage.getItem('percentage_3')+"%";
+  var element4 = document.getElementById("per4");
+  element4.style.width = localStorage.getItem('percentage_4')+"%";
+  var element5 = document.getElementById("per5");
+  element5.style.width = localStorage.getItem('percentage_5')+"%";
+  function generate(){
+    var b=document.getElementById("buttonn");
+    b.innerHTML=null;
+    window.print();
+    }
+  </script>
+   <script src="indexjs.js"></script>
+<script src="templateScript.js"></script>
+</body>
+</html>
